@@ -80,6 +80,7 @@ Then type in following text:
 ```
 mount -t real -o rw / /mnt
 ```
+Save it [Nano: CTRL(^) + o, then CTRL(^) + x ]\
 Then close iSH completely by opening your multitasking view and close iSH by moving it up.\
 If you don't know what I mean you can also type `exit` into the iSH console which will reload .profile
 
