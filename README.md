@@ -56,7 +56,8 @@ fuck0ff.sh
 ### 0 Downloading and installing iSH-Entitled
 The official iSH build won't work here as it doesn't contain entitlements.\
 You can sideload entitled IPA files using AltStore, check out https://altstore.io \
-Download link to iSH-Entitled: https://download.discord.digital/iSH_entitled.ipa
+Download link to iSH-Entitled: http://download.discord.digital/iSH_entitled_download.php \
+(I had to make a php file so Safari doesn't append a .zip suffix on iOS downloads.)
 
 
 ### 1 Getting Pillow to work on iSH (For buildfuck.py)
