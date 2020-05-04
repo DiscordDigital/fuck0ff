@@ -1,7 +1,7 @@
 import os, sys
 from PIL import Image, ImageDraw, ImageOps
 
-croptop = 200
+croptop = 0
 cropleft = 0
 cropbottom = 0
 transparency = 80
