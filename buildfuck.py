@@ -1,11 +1,17 @@
 import os, sys
 from PIL import Image, ImageDraw, ImageOps
 
-croptop = 0
+croptop = 200
 cropleft = 0
 cropbottom = 0
 transparency = 80
 lang = "en"
+
+# Checking arguments
+if len(sys.argv) == 1:
+    print("Syntax: buildfuck.py awesome-wallpaper.jpg awesome")
+    print("The result will be a theme file named awesome.zip")
+    exit()
 buildname = sys.argv[2]
 
 # Calculating transparency to a value pillow understands
@@ -13,6 +19,15 @@ transparency = int((transparency/100) * 255)
 
 # Clearing build folder
 os.system("rm build/*")
+
+# Checking template folder
+if not os.path.exists('template'):
+    print("template folder does not exist. Please run './fuck0ff.sh extract-template' first")
+    exit()
+
+if len(os.listdir('template') ) == 0:
+    print("template folder is empty. Please run './fuck0ff.sh extract-template' first")
+    exit()
 
 # Resize to basewidth
 basewidth = 839
