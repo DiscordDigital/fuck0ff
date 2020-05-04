@@ -5,11 +5,11 @@ Possibly the first theme tweak for iOS 13 using a 0-day vulnerability instead of
 - [X] Add checks to buildfuck.py 
 - [X] Add instructions on how to setup iSH to get buildfuck.py to work
 - [X] Add example images and description text for this "tweak"
-- [ ] (Open) Add a couple themes so one can test without needing to build themes
 - [X] Implement a Syntax
 - [X] Add Documentation on usage
-- [ ] Publish this on github
 - [X] Credit people who make this possible
+- [X] Publish this on github
+- [ ] (Open) Add a couple themes so one can test without needing to build themes
 
 ## About fuck0ff
 This project has a stupid name that is fact.\
