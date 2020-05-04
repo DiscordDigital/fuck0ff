@@ -2,7 +2,7 @@
 Possibly the first theme tweak for iOS 13 using a 0-day vulnerability instead of a jailbreak.
 ## ToDo
 - [X] Add template extractor to fuck0ff.sh 
-- [ ] Add checks to buildfuck.py 
+- [X] Add checks to buildfuck.py 
 - [ ] Add instructions on how to setup iSH to get buildfuck.py to work
 - [ ] Add example images and description text for this "tweak"
 - [ ] Add a couple themes so one can test without needing to build themes
