@@ -15,7 +15,7 @@ Possibly the first theme tweak for iOS 13 using a 0-day vulnerability instead of
 This project has a stupid name that is fact.\
 Other than that it allows theming the iOS dialpad of the phone app.
 
-**Screenshots**:\
+**Screenshots**:
 Screenshot 1                                       |  Screenshot 2
 :-------------------------------------------------:|:---------------------------------------------------:
 ![](https://download.discord.digital/fuck0ff.png)  |  ![](https://download.discord.digital/fuck0ff2.png)
