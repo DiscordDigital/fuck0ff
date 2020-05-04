@@ -28,7 +28,7 @@ then
         then
             mkdir template
         fi
-        rm template/*
+        rm template/* 2>/dev/null
         cp $uipath/* template/
         echo Normalizing iOS filenames
         mv template/en-\*---white.png template/en-_---white.png
