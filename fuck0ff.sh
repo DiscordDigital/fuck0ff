@@ -28,7 +28,11 @@ then
         then
             mkdir template
         fi
+        rm template/*
         cp $uipath/* template/
+        echo Normalizing iOS filenames
+        mv template/en-\*---white.png template/en-_---white.png
+        mv template/en-\*---mask.png template/en-_---mash.png
         echo Extraction finished
         exit
     fi
