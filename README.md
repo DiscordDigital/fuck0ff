@@ -162,5 +162,5 @@ Reopen the phone app and it should be normal now.
 Without them this project wouldn't be possible.
 - Siguza (Psychic paper) https://github.com/Siguza
 - tbodt (iSH) https://github.com/ish-app/
-- rileytestut (Altstore) https://github.com/rileytestut/
+- rileytestut (AltStore) https://github.com/rileytestut/
 - eSko (iSH Entitlements) https://github.com/jankais3r
