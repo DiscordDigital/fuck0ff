@@ -17,6 +17,10 @@ buildname = sys.argv[2]
 # Calculating transparency to a value pillow understands
 transparency = int((transparency/100) * 255)
 
+# Creating build folder if missing
+if not os.path.exists('build'):
+    os.system("mkdir build")
+
 # Clearing build folder
 os.system("rm build/*")
 
