@@ -7,8 +7,6 @@ if [ -z "$1" ];
 then
     echo Please specify theme to patch
     exit
-else
-    echo Patching..
 fi
 
 for f in $iosroot/private/var/mobile/Containers/Data/Application/*; do
@@ -24,13 +22,24 @@ if [ ! -z "$searchfolder" ];
 then
     uipath=$searchfolder/Library/Caches/TelephonyUI-7
 
+    if [ "$1" == "extract-template" ];
+    then
+        if [ ! -d "template" ];
+        then
+            mkdir template
+        fi
+        cp $uipath/* template/
+        echo Extraction finished
+        exit
+    fi
+
     if [ "$1" == "remove" ];
     then
         rm -rf $uipath
         echo Restart phone app to regenerate cache
         exit
     fi
-
+    echo Patching..
     unzip -o $1 -d $uipath
     echo Quick fixup
     if [ -f "$uipath/en-_---white.png" ];
