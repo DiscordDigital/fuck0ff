@@ -157,6 +157,9 @@ Run following to restore the old design:
 ```
 Reopen the phone app and it should be normal now.
 
+**If a picture is shown in either a theme or a screenshot that you own. You can reach out to me to request a removal.**\
+Contact: copyright[@]discord.digital
+
 ## Credits
 **Big thanks** to everyone listed.\
 Without them this project wouldn't be possible.
