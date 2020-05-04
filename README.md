@@ -169,3 +169,4 @@ Without them this project wouldn't be possible.
 - tbodt (iSH) https://github.com/ish-app/
 - rileytestut (AltStore) https://github.com/rileytestut/
 - eSko (iSH Entitlements) https://github.com/jankais3r
+- Pillow (Python3 image manipulation) https://github.com/python-pillow
