@@ -15,8 +15,10 @@ Possibly the first theme tweak for iOS 13 using a 0-day vulnerability instead of
 This project has a stupid name that is fact.\
 Other than that it allows theming the iOS dialpad of the phone app.
 
-**Screenshot**:\
-<img src="https://download.discord.digital/fuck0ff.png" alt="Screenshot" width="whatever" height="800">
+**Screenshots**:\
+Screenshot 1                                       |  Screenshot 2
+:-------------------------------------------------:|:---------------------------------------------------:
+![](https://download.discord.digital/fuck0ff.png)  |  ![](https://download.discord.digital/fuck0ff2.png)
 
 **What is so special about it?**\
 Not only does it work without a jailbreak, it also survives restarts.\
