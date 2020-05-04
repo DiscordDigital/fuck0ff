@@ -48,12 +48,6 @@ bottom = height - cropbottom
 
 img = img.crop((left,top,right,bottom))
 
-#img.save('wallpaper.thumbnail.jpeg') 
-
-# Cropping process of backgrounds
-# 3 per line
-# start left and start top from 0
-# 225 x 255 each block
 objsize = 225
 padding = 80
 toppadding = 48
