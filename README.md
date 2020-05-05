@@ -103,7 +103,7 @@ go to your phones settings and change your language to english.
 Then open your phone app and hit Keypad.\
 Switch back to iSH and run:
 ```
-./fuck0ff extract-template
+./fuck0ff.sh extract-template
 ```
 Now run: 
 ```
@@ -156,7 +156,7 @@ and you can patch it again using fuck0ff.sh while your phone is set to your pref
 ### Restoring old UI
 Run following to restore the old design:
 ```
-./fuck0ff remove
+./fuck0ff.sh remove
 ```
 Reopen the phone app and it should be normal now.
 
