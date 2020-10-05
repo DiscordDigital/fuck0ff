@@ -9,8 +9,6 @@ Possibly the first theme tweak for iOS 13 using a 0-day vulnerability instead of
 - [X] Add Documentation on usage
 - [X] Credit people who make this possible
 - [X] Publish this on github
-- [ ] (Optional) Adding matrix for language prefixes
-- [ ] (Open) Add a couple themes so one can test without needing to build themes
 
 ## About fuck0ff
 This project has a stupid name that is fact.\
