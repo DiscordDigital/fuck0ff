@@ -145,9 +145,8 @@ lang = "en"
 ```
 Change it to:
 ```
-lang = "custom"
+lang = "<custom lang code>"
 ```
-I will later publish a matrix on which languages use a different name than custom.\
 You can then rebuild your theme (it will overwrite the zip)\
 and you can patch it again using fuck0ff.sh while your phone is set to your prefered language.
 
