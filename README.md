@@ -38,8 +38,6 @@ There is a bunch of system files that can be modified, but unfortunately not all
 If more is discovered within the timespan of this bugs lifetime, (probably a couple months till everyone updated)\
 then I'll gladly build other projects and link them to this one.
 
-## Themes: (Coming soon)
-
 ## Syntax:
 buildfuck.py
 ```
@@ -127,7 +125,7 @@ then everything worked fine and you can apply it.
 ### 6 Applying a theme
 If you apply a theme while another one is applied already,\
 then it will simply overwrite it.\
-Apple purple.zip like that:
+Apply purple.zip like that:
 ```
 ./fuck0ff.sh purple.zip
 ```
